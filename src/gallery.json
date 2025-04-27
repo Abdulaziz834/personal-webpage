@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "name": "Arc de Triomphe",
+        "imageSrc": "./gallery/arch.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Disneyland",
+        "imageSrc": "./gallery/bordeaux.jpg"
+    },
+    {
+        "id": 3,
+        "name": "The Palace of Versailles",
+        "imageSrc": "./gallery/castle.webp"
+    },
+    {
+        "id": 4,
+        "name": "Louvre Museum",
+        "imageSrc": "./gallery/louvre.jpg"
+    },
+    {
+        "id": 5,
+        "name": "The Eiffel Tower",
+        "imageSrc": "./gallery/eifel-tower.jpg"
+    },
+    {
+        "id": 6,
+        "name": "The Panthéon",
+        "imageSrc": "./gallery/pantheon.webp"
+    },
+    {
+        "id": 7,
+        "name": "Sacred Heart of Montmartre",
+        "imageSrc": "./gallery/sacre-coeur.webp"
+    },
+    {
+        "id": 8,
+        "name": "Mont-Saint-Michel",
+        "imageSrc": "./gallery/saint-michel.jpg"
+    },
+    {
+        "id": 9,
+        "name": "The Gardens of Versailles",
+        "imageSrc": "./gallery/versale.jpg"
+    }
+]
