@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export default function Index() {
     return (
         <main className="max-lg:py-12 flex items-center justify-evenly lg:flex-row-reverse flex-col">
-            <div className="profile-pic w-[30vw] aspect-square bg-neutral-300"></div>
+            <img src="./greeting.png" className="profile-pic w-[30vw]" />
 
             <div className="info-box max-lg:mt-6 flex flex-col gap-2 lg:items-start items-center">
                 <h1 className="uppercase text-[4vw] lg:text-[3vw]/snug lg:w-min">

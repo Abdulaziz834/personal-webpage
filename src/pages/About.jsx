@@ -11,7 +11,7 @@ export default function About() {
             </section>
             <section className="flex gap-4 mt-12 justify-between">
                 <article className="flex flex-col items-center gap-2">
-                    <div className="profile-pic w-[20vw] aspect-square bg-neutral-300"></div>
+                    <img src="./hello_avatar.png" className="profile-pic w-[20vw] aspect-square" />
                     <h1 className="mt-8 text-2xl font-extrabold">
                         Abdulaziz Abdullayev
                     </h1>

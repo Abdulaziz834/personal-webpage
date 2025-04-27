@@ -4,11 +4,12 @@ import Index from "./pages/Index";
 import About from "./pages/About";
 import NotFound from "./pages/NotFound";
 import Gallery from "./pages/Gallery";
+import Contact from "./pages/Contact";
 
 export default function App() {
     return (
         <>
-            <nav className="lg:py-12 px-8 py-4 lg:grid lg:grid-rows-[auto_1fr_auto_auto] lg:gap-8 flex lg:justify-center justify-between items-center bg-neutral-950 text-white h-dvh">
+            <nav className="lg:py-12 px-8 py-4 lg:grid lg:grid-rows-[auto_1fr_auto_auto] lg:gap-8 flex lg:justify-center justify-between items-center bg-neutral-950 text-white">
                 <div className="logo">
                     <svg
                         width="57"
@@ -161,6 +162,7 @@ export default function App() {
                 <Route path="/" element={<Index />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/gallery" element={<Gallery />} />
+                <Route path="/contact" element={<Contact />} />
                 <Route path="*" element={<NotFound />} />
             </Routes>
         </>
