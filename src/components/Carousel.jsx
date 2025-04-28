@@ -1,4 +1,4 @@
-import { useLayoutEffect, useState } from "react";
+import { useState } from "react";
 
 export default function Carousel({ slides }) {
   let [current, setCurrent] = useState(0);
